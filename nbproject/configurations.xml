@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="f1" displayName="Classes" projectFiles="true" kind="ROOT">
+      <logicalFolder name="f1"
+                     displayName="ConcreteObserver"
+                     projectFiles="true"
+                     kind="ROOT">
+        <itemPath>BSController.cpp</itemPath>
+        <itemPath>BSController.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2"
+                     displayName="ConcreteSubject"
+                     projectFiles="true"
+                     kind="ROOT">
+        <logicalFolder name="f1"
+                       displayName="ModelElements"
+                       projectFiles="true"
+                       kind="ROOT">
+          <itemPath>BSData.cpp</itemPath>
+          <itemPath>BSData.h</itemPath>
+          <itemPath>BSNGrams.cpp</itemPath>
+          <itemPath>BSNGrams.h</itemPath>
+          <itemPath>BSScraper.cpp</itemPath>
+          <itemPath>BSScraper.h</itemPath>
+        </logicalFolder>
+        <itemPath>BSModel.cpp</itemPath>
+        <itemPath>BSModel.h</itemPath>
+        <itemPath>BSView.cpp</itemPath>
+        <itemPath>BSView.h</itemPath>
+        <itemPath>aSubject.cpp</itemPath>
+        <itemPath>aSubject.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3"
+                     displayName="Constants"
+                     projectFiles="true"
+                     kind="ROOT">
+        <itemPath>BSDataSetType.h</itemPath>
+        <itemPath>BSDatatype.h</itemPath>
+        <itemPath>BSMessages.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="Observer" projectFiles="true" kind="ROOT">
+        <itemPath>BSObserver.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="Subject" projectFiles="true" kind="ROOT">
+        <itemPath>BSSubject.cpp</itemPath>
+        <itemPath>BSSubject.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles" displayName="Databases" projectFiles="true">
+      <itemPath>cities.bs</itemPath>
+      <itemPath>debugDB.bs</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>main.cpp</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="BSController.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BSController.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BSData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSDataSetType.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSDatatype.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSMessages.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSModel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BSModel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSNGrams.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BSNGrams.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSObserver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSScraper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BSScraper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSSubject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BSSubject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSView.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BSView.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="aSubject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="aSubject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cities.bs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="debugDB.bs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="BSController.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BSController.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BSData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSDataSetType.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSDatatype.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSMessages.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSModel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BSModel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSNGrams.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BSNGrams.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSObserver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSScraper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BSScraper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSSubject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BSSubject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BSView.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BSView.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="aSubject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="aSubject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cities.bs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="debugDB.bs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
