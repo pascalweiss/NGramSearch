@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-MacOSX
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-MacOSX
-CND_ARTIFACT_NAME_Debug=ngramsearch
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/ngramsearch
+CND_ARTIFACT_NAME_Debug=ngramsearch-master-win8netb7
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/ngramsearch-master-win8netb7
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-MacOSX/package
-CND_PACKAGE_NAME_Debug=ngramsearch.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/ngramsearch.tar
+CND_PACKAGE_NAME_Debug=ngramsearch-master-win8netb7.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/ngramsearch-master-win8netb7.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-MacOSX
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-MacOSX
-CND_ARTIFACT_NAME_Release=ngramsearch
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-MacOSX/ngramsearch
+CND_ARTIFACT_NAME_Release=ngramsearch-master-win8netb7
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-MacOSX/ngramsearch-master-win8netb7
 CND_PACKAGE_DIR_Release=dist/Release/GNU-MacOSX/package
-CND_PACKAGE_NAME_Release=ngramsearch.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-MacOSX/package/ngramsearch.tar
+CND_PACKAGE_NAME_Release=ngramsearch-master-win8netb7.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-MacOSX/package/ngramsearch-master-win8netb7.tar
 #
 # include compiler specific variables
 #

@@ -7,8 +7,11 @@
 
 #include "BSData.h"
 #include <iostream>
+#include <cstdlib>
 #include <fstream>
 #include "BSScraper.h"
+#include <string>
+
 using namespace std;
 
 BSData::BSData(): data(), nGrams(3) {
@@ -16,15 +19,16 @@ BSData::BSData(): data(), nGrams(3) {
 
 bool BSData::importFromFile(string filePath, int type) {
     string line;
-    ifstream file(filePath);
-    if (file.is_open()) {
+    ifstream infile;
+    infile.open(filePath.c_str(), ifstream::in);
+    if (infile.is_open()) {
         cout << "file opened\n";
-        while (std::getline(file, line)) {
+        while (std::getline(infile, line)) {
             line = BSScraper::substringBeweenSeperators(line, ',', 1);
             line = BSScraper::toLower(line);
             addElement(line);
         }
-        file.close();
+        infile.close();
         return true;
     }
     else {

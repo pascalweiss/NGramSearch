@@ -10,6 +10,7 @@
 #include "BSMessages.h"
 #include <iostream>
 #include <sstream>
+#include <string>
 
 // Methods for user input
 
@@ -21,8 +22,14 @@ void BSView::menuUI() {
     string input;
     cout << "\nMenu \n=====\n1: Search for city\n2: View Database\n3: View Trigrams\n\nType in the number: ";
     getline(cin, input);
-    try {
-        switch (stoi(input)) {
+ int choice = 3;
+ 
+ 
+ 
+            stringstream mystream(input);
+        mystream >> choice;  
+   // try {
+        switch (choice) {
             case 1:
                 currentMenu = BSMessages::searchEntered;
                 notify(BSMessages::searchEntered);
@@ -38,10 +45,10 @@ void BSView::menuUI() {
             default:
                 break;
         }
-    }
-    catch (const invalid_argument& ia) {
-        cerr << "Invalid argument: " << ia.what() << '\n';
-    }
+    //}
+//    catch (const invalid_argument& ia) {
+//        cerr << "Invalid argument: " << ia.what() << '\n';
+//    }
 }
 
 void BSView::searchUI() {
@@ -74,7 +81,7 @@ void BSView::printNGrams(map <string, vector<int> > data) {
     cout << "\nNGrams\n==============\n";
     string key;
     vector<int> vek;
-    for(auto it = data.cbegin(); it != data.cend(); ++it) {
+    for(map <string, vector<int> >::iterator it = data.begin(); it != data.end(); ++it) {
         vek = it->second;
         stringstream sstream;
         for (int i = 0; i < vek.size(); i++) {

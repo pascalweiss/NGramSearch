@@ -59,7 +59,7 @@ map<int, int> BSNGrams::search(string str) {
 void BSNGrams::print() {
     string key;
     vector<int> vek;
-    for(auto it = data.cbegin(); it != data.cend(); ++it) {
+    for(map<string, vector<int> >::iterator it = data.begin(); it != data.end(); ++it) {
         vek = it->second;
         stringstream sstream;
         for (int i = 0; i < vek.size(); i++) {

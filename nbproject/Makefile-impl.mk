@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=NGramSearch
+PROJECTNAME=NGramSearch-master-win8netb7
 
 # Active Configuration
 DEFAULTCONF=Debug

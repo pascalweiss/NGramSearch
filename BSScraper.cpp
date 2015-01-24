@@ -1,6 +1,7 @@
 # include "BSScraper.h"
 # include <iostream>
 # include <utility>
+#include <algorithm>
 
 using namespace std;
 
@@ -26,6 +27,6 @@ string BSScraper::substringBeweenSeperators(string str, char seperator, int from
 }
 
 string BSScraper::toLower(string str) {
-    transform(str.begin(), str.end(), str.begin(), ::tolower);
+    std::transform(str.begin(), str.end(), str.begin(), ::tolower);
     return str;
 }

@@ -1,6 +1,7 @@
 
 #include "BSModel.h"
 #include <iostream>
+#include <algorithm>
 #include "BSMessages.h"
 
 using namespace std;
@@ -84,6 +85,6 @@ bool sortComparison(pair<string, int> p1, pair<string, int> p2) {
 
 void BSModel::search(string str, BSData data) {
     vector<pair<string, int> > searchResult = data.search(str);
-    sort(searchResult.begin(), searchResult.end(), sortComparison);
+    std::sort(searchResult.begin(), searchResult.end(), sortComparison);
     this->searchResult = searchResult;
 }
